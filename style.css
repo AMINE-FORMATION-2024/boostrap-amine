@@ -1,6 +1,6 @@
 .nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .gh{
     background-image: url("mer.jpg");
@@ -22,7 +22,7 @@
 }
 .tl{
     background-image: url("TACOS-LYON.jpg");
-    height: 100%;
+    height: 30rem;
     display:flex;
     justify-content: center;
     align-content: center;
@@ -31,7 +31,7 @@
 .pt{
         background-image: url("POULET-AL-FREDO-PENNE.jpg");
         background-size: 100%;
-        height: 100%;
+        height: 30rem;
         display:flex;
         justify-content: center;
         align-content: center;
@@ -45,5 +45,16 @@
     justify-content: center;
     align-content: center;
   
+}
+.foot{
+    background-color: rgb(9, 8, 29);
+    border: 5px;
+}
+.foot2{
+    text-emphasis-color: rgb(221, 221, 226);
+    color: antiquewhite;
+    text-align: right;
+    align-items: center;
+    align-content: center;
 }
 
